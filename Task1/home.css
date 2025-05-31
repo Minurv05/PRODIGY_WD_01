@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #b9d0f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+   /*  position: relative;
+    left: 280px; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav1,
+.nav2,
+.nav3 {
+    
+
+    padding: 10px;
+
+
+}
+
+.nav1 a,
+.nav2 a,
+.nav3 a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #fafafa;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    width: 30%;
+    font-family: "Butterfly Kids", cursive;
+  position: relative;
+  right: 145px;
+}
+
+
+.logo h2 {
+    font-weight: bolder;
+    color: rgb(67, 15, 84);
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+   position: relative;
+  left: 145px;
+}
+
+.signup-button {
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(255, 50, 4);
+    color: white;
+    margin-right: 20px;
+ 
+}
+
+.signup-button:hover {
+    background-color: rgb(226, 48, 48);
+    transform: scale(1.1);
+}
+
+.problem {
+    height: 450px;
+    padding: 50px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.product-description {
+    padding: 0 20px;
+    width: 50vw;
+    height: 230px;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-problem {
+    margin: 20px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(17, 17, 71);
+    font-family: "Changa", sans-serif;
+    background-color: #dfe5ed;
+    border-radius: 0px 20px 0px 0px;
+
+
+}
+
+.description-problem {
+    margin-bottom: 10px;
+    font-size: 20px;
+    height: 80px;
+    width: 450px;
+
+}
+
+.img-problem {
+    margin-top: 20px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-problem img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px 0px 150px 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.solution-problem {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafad9;
+    width: 100vw;
+}
+
+.heading-solution {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(17, 17, 71);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+    font-family: "Changa", sans-serif;
+}
+
+.product {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 40px;
+    
+}
+
+.p1:hover{
+    transform: scale(1.1);
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+
+}
+
+.p1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.p1 span {
+
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.Explore-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(255, 50, 4);
+    color: white;
+}
+
+.Explore-button:hover {
+    background-color: rgb(226, 48, 48);
+    transform: scale(1.1);
+}
+
+.about-us {
+    background-image: linear-gradient(to bottom left, rgb(254, 242, 188), rgb(244, 244, 243));
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+
+}
+
+.heading-about-us {
+    font-family: "Changa", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(17, 17, 71);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.content-about-us {
+    height: 250px;
+    width: 100vw;
+
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+
+}
+
+.content-about-us div p {
+    margin-top: 30px;
+}
+
+.content-about-us div {
+    background-color: rgb(251, 247, 248);
+    height: 200px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 10px 10px 2px grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading-customer-reviews {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Changa", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(17, 17, 71);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.customer-reviews {
+    height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.C {
+
+    overflow-x: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 880px;
+
+}
+
+.c {
+    margin-top: 50px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(96, 91, 91);
+    height: 150px;
+    margin: 20px;
+    flex: 0 0 auto;
+    width: 400px;
+    scroll-snap-align: start;
+}
+
+
+
+
+
+
+.people {
+
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 20px;
+    font-weight: bold;
+    color: #aa1616;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.footer {
+    background-color: #b9d0f7;
+    height: 70px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.followus p {
+    border-radius: 20px;
+    border: 1px soild blue;
+    color: rgb(17, 17, 71);
+    font-size: 15px;
+
+}
+
+
+.followus img {
+    height: 30px;
+    border-radius: 15px;
+}
+
+
+
+.navAfter:hover {
+
+   color: rgb(29, 23, 29);
+    border: 3px solid rgb(84, 84, 143);
+    border-left: #5f99f5;
+    border-right: #5f99f5;
+    border-top: #5f99f5;
+    transition: background-color 1s ease;
+}
+
+@media (max-width:990px) {
+
+    .logo{
+        position: relative;
+    left: -66px;
+    }
+
+    .C {
+
+        width: 500px;
+    }
+
+    .c {
+        width: 480px;
+        height: 200px;
+    }
+
+    .people {
+        font-size: 30px;
+    }
+
+    .c p {
+        font-size: 25px;
+
+    }
+
+    .content-about-us div {
+        height: 270px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    .logo{
+        position: relative;
+    left: -66px;
+    }
+    .signup{
+    position: relative;
+    left: 88px;
+    }
+    .problem {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .product-description {
+        width: 650px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .description-problem {
+        width: 480px;
+        font-size: 25px;
+    }
+
+    .img-problem {
+        display: none;
+    }
+
+    .button-problem {
+        margin-top: 35px;
+    }
+
+}
+
+@media (max-width:740px) {
+    .logo{
+        position: relative;
+    left: 7px;
+    }
+
+   
+     .nav{
+        display: none;
+    }
+
+    .signup{
+        display: none;
+    }
+    .solution-problem {
+        height: 700px;
+    }
+
+    .product {
+        display: flex;
+        width: 500px;
+        height: 900px;
+        flex-wrap: wrap;
+        position: relative;
+        left: 150px;
+        overflow: hidden;
+
+    }
+
+    .p1 img {
+        height: 225px;
+        width: 225px;
+    }
+
+
+}
+
+@media (max-width:645px) {
+ .logo{
+        position: relative;
+   right:75px;
+   
+    }
+    
+    .nav{
+        display: none;
+    }
+
+    .signup{
+        display: none;
+    }
+    .problem {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+
+    }
+
+    .product-description {
+        width: 530px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .product {
+
+        position: relative;
+        left: 100px;
+
+
+    }
+
+    .description-problem {
+        width: 480px;
+    }
+
+    .button-problem {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .product {
+        position: relative;
+        left: 30px;
+    }
+
+   
+
+}
+
+@media (max-width:485px) {
+        .logo{
+  position: relative;
+   right:30px;
+    
+    }
+    .problem {
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+
+    }
+
+    .product-description {
+        width: 450px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .description-problem {
+        width: 380px;
+    }
+
+    .button-problem {
+        margin-top: 65px;
+    }
+
+
+    .c {
+
+        width: 470px;
+
+    }
+
+    .people {
+        font-size: 25px;
+    }
+
+    .c p {
+        font-size: 25px;
+
+    }
+}
+
+.dropdown{
+
+    margin-top: 80px;
+    
+   
+    
+}
+
+.dropdown i{
+    margin-left: 20px;
+}
+.dropdown li a{
+    color: black;
+}
+.display{
+    display: none;
+}
+
+@media (max-width:740px) {
+   
+
+    .display{
+        display: block;
+        
+
+    }
+    .dropdown .nb{
+        background-color: #f7eeb9;
+      /*  width: 250px; */
+       text-align: center;
+       color: black;
+        
+
+
+    }
+    .nb{
+        display: none;
+    }
+    .dropdown .nb{
+       /*  margin-top: 320px; */
+    }
+    .dropdown li{
+        font-size: 30px;
+        padding: 1.2rem;
+        color: #aa1616;
+        
+        list-style: none;
+        
+    }
+
+    i{
+        font-size: 40px;
+
+       
+    }
+
+    .signup2 {
+       font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(255, 50, 4);
+    color: white;
+    margin: 10px;
+    }
+    
+}
